@@ -1,36 +1,93 @@
 /**************TAG SELECTORS*************/
 body{
-    background-color: #516BEB;
-}
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 30%;
-}
-img:hover{
-    background-color: cornflowerblue;
+    color: #40514E;
+    background-color: #F9F7F7;
+    margin: 0px;
+    text-align: center;
+    font-family:"Merriweather",serif;
+
 }
 h1{
-    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family:"Sacramento",cursive;
+    line-height: 2;
+    color: #112D4E;;
+}
+h2{
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #112D4E;;
+    padding-bottom: 10px;
+
 }
 h3{
-    color: #66BFBF;
+    color: #112D4E;;
+    font-family: "Montserrat",sans-serif;
 }
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted #EAF6F6;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: #112D4E;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/**************CLASS SELECTORS*************/
+.top-container{
+    padding-top: 15%;
+    position: relative;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    background-color: #3F72AF;
+    padding: 50px 0 20px;
+}
+.top-cloud{
+    position: absolute;
+    right: 20%;
+    top: 2%;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+}
+.profile-image{
+    margin-top: 10%;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+.flutter-logo{
+    float: left;
+    width: 30%;
 
-/********************CLASS SELECTORS*******************/
-.pleading {
-    background-color: black;
+    margin-right: 30px;
 }
-.taco{
-    background-color: green;
+.programming{
+    float: right;
+    width: 30%;
+    margin-right: 30px;
 }
-.circular{
-    border-radius: 100%;
+.footer-link{
+    color: #112D4E;
 }
-
-/********************ID SELECTORS*******************/
-#heading{
-    color: red;
+.skill-row{
+    text-align: left;
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+.intro{
+    width: 30%;
+    margin: auto;
 }
